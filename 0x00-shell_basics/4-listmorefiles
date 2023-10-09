@@ -1,6 +1,2 @@
 #!/bin/bash
-<<<<<<< HEAD
-Hidden files
-=======
-4-listmorefiles
->>>>>>> 5717c011918a83fee7fd5cc8b964ba8e875b3ea5
+ls -la
