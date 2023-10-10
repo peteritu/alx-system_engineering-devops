@@ -1,2 +1,4 @@
 #!/bin/bash
-for file in *.html; do [ "$file" -nt "../$file" ] | cp "$file" "../$file"; done
+#!/bin/bash
+for file in *.html; do [ ! -e "../$file" ] || [ "$file" -nt "../$file" ] && cp "$file" "../$file"; done
+
