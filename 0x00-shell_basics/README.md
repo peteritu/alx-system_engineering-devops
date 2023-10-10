@@ -12,3 +12,4 @@
 10-back, "This script changes the workingdirectory to the previous one."
 11-lists, "This script lists all files in the current directory, the parent of the working directory, and the /boot directory (in this order) in long format."
 12-file_type, "This script prints the type of the file named iamafile in the /tmp directory."
+13-symbolic_link, "This script creates a symbolic link to /bin/ls named __ls__ in the current working directory."
